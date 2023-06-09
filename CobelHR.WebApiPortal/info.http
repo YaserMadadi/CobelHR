@@ -1,0 +1,5 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+GET https://HRCOre.cobeldarou.com:20440/HRServices/api/Check;
+
+
+POST https://HRCore.cobeldarou.com:20440/HRServices/api/Login { "UserName"": "thcob1666", "Password":"123" }

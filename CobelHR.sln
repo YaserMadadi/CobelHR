@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CobelHR.Services", "CobelHR.Services\CobelHR.Services.csproj", "{B09FF183-69AF-4F27-A693-ACA3FB30E3EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EssentialCore", "EssentialCore\EssentialCore.csproj", "{99C34A0E-83C1-449A-AB2F-C4B6A86FA5B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CobelHR.Entities", "CobelHR.Entities\CobelHR.Entities.csproj", "{BE7FAC8E-C701-44F8-9444-054FF978EB88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CobelHR.WebApiPortal", "CobelHR.WebApiPortal\CobelHR.WebApiPortal.csproj", "{FE23CE37-7616-462C-B698-529D58B582D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{17BE648A-DD4A-4400-8EBB-86D7C35B6821}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B09FF183-69AF-4F27-A693-ACA3FB30E3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B09FF183-69AF-4F27-A693-ACA3FB30E3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B09FF183-69AF-4F27-A693-ACA3FB30E3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B09FF183-69AF-4F27-A693-ACA3FB30E3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99C34A0E-83C1-449A-AB2F-C4B6A86FA5B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C34A0E-83C1-449A-AB2F-C4B6A86FA5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C34A0E-83C1-449A-AB2F-C4B6A86FA5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C34A0E-83C1-449A-AB2F-C4B6A86FA5B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE7FAC8E-C701-44F8-9444-054FF978EB88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE7FAC8E-C701-44F8-9444-054FF978EB88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE7FAC8E-C701-44F8-9444-054FF978EB88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE7FAC8E-C701-44F8-9444-054FF978EB88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE23CE37-7616-462C-B698-529D58B582D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE23CE37-7616-462C-B698-529D58B582D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE23CE37-7616-462C-B698-529D58B582D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE23CE37-7616-462C-B698-529D58B582D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE23CE37-7616-462C-B698-529D58B582D6} = {17BE648A-DD4A-4400-8EBB-86D7C35B6821}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FF894E7-5198-4DF9-A89D-D3297182FD44}
+	EndGlobalSection
+EndGlobal
