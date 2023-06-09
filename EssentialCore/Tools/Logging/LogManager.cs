@@ -43,15 +43,15 @@ namespace EssentialCore.Tools.Logging
 
 
 
-        private static Entities.Log.Exception GetCurrentLog(Exception ex, string commandName, string commandParameters)
+        private static Entities.Logging.Exception GetCurrentLog(Exception ex, string commandName, string commandParameters)
         {
-            var log = new Entities.Log.Exception()
+            var log = new Entities.Logging.Exception()
             {
                 Date = DateTime.Now,
                 Time = DateTime.Now.TimeOfDay,
                 CommandName = commandName,
                 CommandParameters = commandParameters,
-                ExceptionType = ex.GetType().Name,
+                ExceptionType_Id = 2,
                 ErrorMessage = ex.Message,
                 ErrorNumber = 0,
                 ErrorCode = 0,
@@ -62,6 +62,7 @@ namespace EssentialCore.Tools.Logging
             {
                 var sqlException = ex as SqlException;
 
+                log.ExceptionType_Id = 2;
                 log.ErrorCode = sqlException.ErrorCode;
                 log.ErrorNumber = sqlException.Number;
             }
@@ -76,7 +77,7 @@ namespace EssentialCore.Tools.Logging
 
         public static async Task<bool> Save<T>(T ex, string commandName, string commandParameters) where T : Exception
         {
-            var service = new BusinessLogic.Service<Entities.Log.Exception>();
+            var service = new BusinessLogic.Service<Entities.Logging.Exception>();
 
             var transaction = new DataAccess.CoreTransaction();
 

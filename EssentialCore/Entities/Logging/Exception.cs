@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EssentialCore.Entities.Log
+namespace EssentialCore.Entities.Logging
 {
     public class Exception : EntityBase, IEntityBase
     {

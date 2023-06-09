@@ -11,9 +11,9 @@ using EssentialCore.Entities;
 
 namespace EssentialCore.Tools.Logging
 {
-    public class ExceptionLogService : Service<Entities.Log.Exception>
+    public class ExceptionLogService : Service<Entities.Logging.Exception>
     {
-        public async Task<DataResult<Entities.Log.Exception>> SaveAttached(Entities.Log.Exception exceptionLog)
+        public async Task<DataResult<Entities.Logging.Exception>> SaveAttached(Entities.Logging.Exception exceptionLog)
         {
             var transaction = new CoreTransaction();
 
